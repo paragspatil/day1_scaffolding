@@ -1,6 +1,7 @@
 # Miscellaneous
 *.class
 *.log
+*.lock
 *.pyc
 *.swp
 .DS_Store
@@ -29,6 +30,8 @@
 .pub-cache/
 .pub/
 /build/
+.packages
+
 
 # Android related
 **/android/**/gradle-wrapper.jar
