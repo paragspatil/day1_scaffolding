@@ -8,8 +8,24 @@ class Student {
 }
 
 void main() {
-  String msg = 'Hello World';
-  Text textWidget = Text(msg);
-  MaterialApp myApp = MaterialApp(home: textWidget);
-  runApp(myApp);
-}
+
+
+  void main() => runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.black12,
+        appBar: AppBar(
+          title: Text('Twitch'),
+          backgroundColor: Colors.teal,
+        ),
+        body: Image.network(
+            'https://www.freepnglogos.com/uploads/twitch-logo-vector-png-2.png'),
+      ),
+    ),
+  );
+
+
+
+
+
+  }
