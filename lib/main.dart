@@ -13,10 +13,10 @@ void main() {
   void main() => runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.black12,
+        backgroundColor: Colors.purple.shade100,
         appBar: AppBar(
           title: Text('Twitch'),
-          backgroundColor: Colors.teal,
+          backgroundColor: Colors.white,
         ),
         body: Image.network(
             'https://www.freepnglogos.com/uploads/twitch-logo-vector-png-2.png'),
